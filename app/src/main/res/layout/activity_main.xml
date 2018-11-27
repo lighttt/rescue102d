@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Patients:"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:layout_margin="5dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/title"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Pid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Patient id:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Piddisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:text="101"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Pid"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Name:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pnamedisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/Name"
+                android:layout_below="@+id/Piddisplay"
+                android:layout_marginTop="5dp"
+                android:text="Ram Subedi"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Blood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Blood:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pbloodisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Name"
+                android:layout_below="@+id/Pnamedisplay"
+                android:layout_marginTop="5dp"
+                android:text="B+ve"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Case"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Case:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pcasedisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood"
+                android:layout_toRightOf="@+id/Case"
+                android:layout_marginTop="5dp"
+                android:text="Head Injury"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Case"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Desc:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pdescdisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Pnamedisplay"
+                android:layout_below="@+id/Pcasedisplay"
+                android:layout_marginTop="5dp"
+                android:text="@string/descone"
+                android:textColor="#000" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/cardview2"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Pid3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Patient id:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Piddisplay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:text="103"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/Name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Pid3"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Name:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pnamedisplay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Name3"
+                android:layout_below="@+id/Piddisplay3"
+                android:layout_marginTop="5dp"
+                android:text="Rohit Karki"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/Blood3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name3"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Blood:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pbloodisplay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Name3"
+                android:layout_below="@+id/Pnamedisplay3"
+                android:layout_marginTop="5dp"
+                android:text="B+ve"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Case3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood3"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Case:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pcasedisplay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood3"
+                android:layout_toRightOf="@+id/Case3"
+                android:layout_marginTop="5dp"
+                android:text="Head Injury"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/Desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Case3"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Desc:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pdescdisplay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Pnamedisplay3"
+                android:layout_below="@+id/Pcasedisplay3"
+                android:layout_marginTop="5dp"
+                android:text="@string/desthree"
+                android:textColor="#000" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/cardview1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Pid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Patient id:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Piddisplay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:text="102"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/Name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Pid2"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Name:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pnamedisplay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Name2"
+                android:layout_below="@+id/Piddisplay2"
+                android:layout_marginTop="5dp"
+                android:text="Bibek Sharma"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Blood2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name2"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Blood:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pbloodisplay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Name2"
+                android:layout_below="@+id/Pnamedisplay2"
+                android:layout_marginTop="5dp"
+                android:text="A+ve"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Case2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood2"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Case:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pcasedisplay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Blood2"
+                android:layout_toRightOf="@+id/Case2"
+                android:layout_marginTop="5dp"
+                android:text="Head Injury"
+                android:textColor="#000" />>
+
+            <TextView
+                android:id="@+id/Desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Case2"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Desc:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/Pdescdisplay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Pnamedisplay2"
+                android:layout_below="@+id/Pcasedisplay2"
+                android:layout_marginTop="5dp"
+                android:text="@string/destwo"
+                android:textColor="#000" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

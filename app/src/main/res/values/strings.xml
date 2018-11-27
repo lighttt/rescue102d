@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rescue 102 Doctor</string>
+
+    <string name="descone">
+
+
+     Huge Loss of Blood \n
+       Due to bike accident
+
+    </string>
+
+    <string name="destwo">
+
+     Ate poisonous mushrooms \n
+    </string>
+
+
+    <string name="desthree">
+
+     Accidental drwon on river \n
+        Huge inhale of water
+    </string>
+</resources>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1073799907944",
+    "firebase_url": "https://rescue-102-d.firebaseio.com",
+    "project_id": "rescue-102-d",
+    "storage_bucket": "rescue-102-d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073799907944:android:fdc0c817aa0dbd17",
+        "android_client_info": {
+          "package_name": "codeslayers.rescue102d.rescue102d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073799907944-ooeas3mp8klpvvlafofb3rpabnqi8e8c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1073799907944-ooeas3mp8klpvvlafofb3rpabnqi8e8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChWQ39B7wS8q_87XlIgs9H-wQKYOK6EZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
